@@ -1,0 +1,54 @@
+[
+    {
+        "complete": true,
+        "id": 10,
+        "items": [
+            {
+                "complete": true,
+                "estimatedShipDateRange": {
+                    "fromDate": "2020-09-06T13:39:52.774-05:00",
+                    "toDate": "2020-09-06T13:39:52.774-05:00"
+                },
+                "id": 100000,
+                "name": "Apple Iphone XR",
+                "newEstimatedShipDateRange": {
+                    "fromDate": "2020-10-02T13:39:52.774-05:00",
+                    "toDate": "2020-10-02T13:39:52.774-05:00"
+                },
+                "plan": "AT&T Unlimited Extra",
+                "quantity": 1,
+                "skuAttributes": {
+                    "color": "Yellow",
+                    "manufacturer": "Apple",
+                    "model": "Iphone XR",
+                    "size": "64 GB"
+                },
+                "skuId": "sku1234",
+                "status": "ordered",
+                "telephoneNumber": "409.406.3322",
+                "userAcceptedDelay": false
+            }
+        ],
+        "orderId": 198772,
+        "shipingAddress": {
+            "city": "Palo Alto",
+            "state": "CA",
+            "street": "437 Lytton",
+            "zip": "94301"
+        },
+        "shipments": [
+            {
+                "carrier": "USPS",
+                "estimatedDeliveryDate": "2020-10-06T13:39:52.774-05:00",
+                "id": 1,
+                "items": [
+                    100000
+                ],
+                "shipDate": "2020-10-02T13:39:52.774-05:00",
+                "trackingNumber": "9400100000000000000000",
+                "trackingUrl": "https://tools.usps.com/go/TrackConfirmAction?tRef=fullpage&tLc=2&text28777=&tLabels=9400100000000000000000%2C"
+            }
+        ],
+        "status": "ordered"
+    }
+]

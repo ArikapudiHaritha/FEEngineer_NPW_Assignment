@@ -1,0 +1,32 @@
+.separator {
+  background-color: #d3d3d3;
+  height: 2px;
+  border-radius: 3px;
+  width: 100%;
+}
+.separator.done {
+  background-color: #1e90ff;
+}
+
+.status-col {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 5px !important;
+}
+
+.light-text {
+  color: #d3d3d3;
+}
+.dark-text {
+  color: black;
+}
+
+.warning-msg {
+  margin-left: 25px;
+  margin-top: -22px;
+}
+svg.failed-icon {
+  position: absolute;
+  top: 31px;
+}
